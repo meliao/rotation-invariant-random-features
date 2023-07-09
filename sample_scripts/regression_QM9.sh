@@ -1,0 +1,13 @@
+python regression_QM9.py \
+    -data_dir data/qm9/parsed \
+    -results_fp data/results/regression_QM9.txt \
+    -serialize_dir data/results/regression_QM9_data \
+    -n_features 100 \
+    -n_train_folds 1 \
+    -n_test_folds 1 \
+    -max_L 5 \
+    -n_cores 4 \
+    -weight_variance 2. \
+    -chunksize 2000 \
+    -atol 1e-03 \
+    -l2_reg 0.001

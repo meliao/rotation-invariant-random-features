@@ -1,0 +1,17 @@
+python regression_QM7_MLP.py \
+    -data_fp data/qm7/qm7.mat \
+    -results_fp data/results/regression_QM7_MLP.txt \
+    -train_results_fp data/results/regression_QM7_MLP_training.txt \
+    -save_data_dir data/results/regression_QM7_MLP_data \
+    -n_features 50 \
+    -n_train 500 \
+    -n_test 100 \
+    -n_cores 4 \
+    -weight_variance 2. \
+    -max_L 5 \
+    -chunksize 2000 \
+    -normalize_features \
+    -l2_reg  0.00001 \
+    -width 100 \
+    -depth 2 \
+    -n_epochs 20

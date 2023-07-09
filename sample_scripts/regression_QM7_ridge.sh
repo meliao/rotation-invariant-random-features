@@ -1,0 +1,13 @@
+python regression_QM7_ridge.py \
+    -data_fp data/qm7/qm7.mat \
+    -results_fp data/results/regression_QM7_ridge.txt \
+    -save_data_dir data/results \
+    -n_features 250 \
+    -n_train 5732 \
+    -n_test 1433 \
+    -n_cores 4 \
+    -weight_variance 2. \
+    -max_L 5 \
+    -chunksize 2000 \
+    -normalize_features \
+    -l2_reg  10. 1.0 0.1 0.01 0.001 0.0001 0.00001

@@ -1,0 +1,13 @@
+name: RIRF
+channels:
+  - defaults
+dependencies:
+  - h5py
+  - pandas
+  - numba
+  - pytorch
+  - scikit-learn
+  - matplotlib
+  - scipy
+  - pytest
+prefix: /opt/miniconda3/envs/RIRF
