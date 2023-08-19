@@ -39,5 +39,14 @@ python -m pytest test/
 ## Citation
 
 ```
-TODO
+@article{
+melia2023rotationinvariant,
+title={Rotation-Invariant Random Features Provide a Strong Baseline for Machine Learning on 3D Point Clouds},
+author={Owen Melia and Eric M Jonas and Rebecca Willett},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=nYzhlFyjjd},
+note={}
+}
 ```
